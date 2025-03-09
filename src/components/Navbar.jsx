@@ -13,17 +13,25 @@
                 </hi>
             </div>
             <div>
-                <ul className="flex space-x-4">
+                <ul className="hidden md:flex space-x-4">
                     <li>Home</li>
                     <li>About</li>
                     <li>Experience</li>
                     <li>Contact me</li>
                     <li>Projects</li>
-                    
                 </ul>
             </div>
         </div>
-        <div></div>
+        <div>
+        <ul className="md:hidden">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Experience</li>
+                    <li>Contact me</li>
+                    <li>Projects</li>
+                </ul>
+
+        </div>
     </div>
     </>
    );
