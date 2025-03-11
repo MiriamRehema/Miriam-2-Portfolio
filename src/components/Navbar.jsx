@@ -3,44 +3,47 @@
  import { IoClose } from "react-icons/io5";
  function Navbar() {
     const [menu,setMenu]=useState(false);
+    const navItems=[
+        {id:1,text:"Home"},
+        {id:2,text:"About"},
+        {id:3,text:"Experience"},
+        {id:4,text:"Projects"},
+        {id:5,text:"Contact me"}
+    ]
    return (
-    
     <>
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="flex justify-between items-center py-4">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md  bg-white">
+        <div className="flex justify-between items-center h-16">
             <div className="flex space-x-2">
                 <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo" className="h-8 w-auto"/>
-                <hi className="font-semibold text-xl cursor-pointer">
+                <h1 className="font-semibold text-xl cursor-pointer">
                     Miriam
                 <p className="text-sm">Web Developer</p>
-                </hi>
+                </h1>
             </div>
             <div>
                 {/* /*desktop navabar*/ }
+
                 <ul className="hidden md:flex space-x-4">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Contact me</li>
-                    <li>Projects</li>
+                    {navItems.map(({id,text})=>(
+                        <li key={id}>{text}</li>
+                    ))}
                 </ul>
                 <div onClick={()=>setMenu(!menu)}>
-                    {menu?<TiThMenu />:<IoClose />}
+                    {menu?<IoClose  size={24} />:<TiThMenu size={24} />}
                 </div>
                 
             </div>
         </div>
-        <div>
-            {/* mobile navbar */}
-        <ul className="md:hidden">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Experience</li>
-                    <li>Contact me</li>
-                    <li>Projects</li>
-                </ul>
-
-        </div>
+        {/* mobile navbar */}
+        {menu &&(
+            <ul className="md:hidden flex flex-col h-screen items-center justify center space-y-4">
+                {navItems.map(({id,text})=>(
+                    <li key={id}>{text}</li>
+                ))}
+            </ul>
+        )}
+      
     </div>
     </>
    );
