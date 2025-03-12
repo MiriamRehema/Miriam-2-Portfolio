@@ -29,7 +29,7 @@
                         <li className= "hover:scale-y-105 duration-200 cursor-pointer" key={id}>{text}</li>
                     ))}
                 </ul>
-                <div onClick={()=>setMenu(!menu)}>
+                <div onClick={()=>setMenu(!menu)}className="md:hidden">
                     {menu?<IoClose  size={24} />:<TiThMenu size={24} />}
                 </div>
                 
