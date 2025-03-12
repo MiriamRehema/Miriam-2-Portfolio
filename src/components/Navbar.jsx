@@ -12,7 +12,7 @@
     ]
    return (
     <>
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md  bg-white">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-10 bg-white">
         <div className="flex justify-between items-center h-16">
             <div className="flex space-x-2">
                 <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo" className="h-8 w-auto"/>
@@ -24,9 +24,9 @@
             <div>
                 {/* /*desktop navabar*/ }
 
-                <ul className="hidden md:flex space-x-4">
+                <ul className="hidden md:flex space-x-8">
                     {navItems.map(({id,text})=>(
-                        <li key={id}>{text}</li>
+                        <li className= "hover:scale-y-105 duration-200 cursor-pointer" key={id}>{text}</li>
                     ))}
                 </ul>
                 <div onClick={()=>setMenu(!menu)}>
@@ -37,9 +37,9 @@
         </div>
         {/* mobile navbar */}
         {menu &&(
-            <ul className="md:hidden flex flex-col h-screen items-center justify center space-y-4">
+            <ul className="md:hidden flex flex-col h-screen items-center justify center space-y-3 text-xl">
                 {navItems.map(({id,text})=>(
-                    <li key={id}>{text}</li>
+                    <li className="hover:scale-y-105 duration-200 font-semibold cursor-pointer" key={id}>{text}</li>
                 ))}
             </ul>
         )}
