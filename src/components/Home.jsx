@@ -6,19 +6,19 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaPython } from "react-icons/fa6";
 import { DiDjango } from "react-icons/di";
 import { ReactTyped, } from "react-typed";
-
+import pic from "/animegirl.jpg"
 function Home() {
   
     return (
         <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             <div className='flex flex-col md:flex-row '>
-            <div className='md:w-1/2 mt-12 md:mt-24 space-y-2' >
+            <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1' >
             <span className='text-xl'>Welcome to my Feed</span>
            <div className='flex space-x-1 text-2xl md:text-4xl '>
-           <h1>Hello,I am a  </h1>
+           <h1>Hello,I am a</h1>
            {/* <span style={{ color: 'red', fontWeight: 'bold' }}>Developer</span> */}
            <ReactTyped
-           className='text-red-700 font-bold'
+           className='text-red-700 '
           strings={["Backend Developer", "Programmer", "Software Engineer"]}
           typeSpeed={40}
           backSpeed={50}
@@ -36,7 +36,7 @@ function Home() {
             </p>
             <br/>
             {/* social media icons */}
-            <div className='flex justify-between'>
+            <div className='flex flex-col md:flex-row justify-between'>
                 <div className=' space-y-2'>
                 <h1 className='font-bold'>Available on</h1>
                 <ul className='flex space-x-5'>
@@ -57,8 +57,8 @@ function Home() {
             </div>    
             </div>
             </div>
-            <div className='md:w-1/2'>
-            <img src=''alt=''/>
+            <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1'>
+            <img src={pic}className= "rounded-full  md:w-[450px] md:h-[450px]"alt=''/>
             </div>
 
             </div>
