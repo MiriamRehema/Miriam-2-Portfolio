@@ -8,8 +8,9 @@ import { DiDjango } from "react-icons/di";
 import { ReactTyped, } from "react-typed";
 import pic from "/anime2.jpg"
 function Home() {
-  
+
     return (
+        <>
         <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             <div className='flex flex-col md:flex-row '>
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1' >
@@ -36,12 +37,14 @@ function Home() {
             </p>
             <br/>
             {/* social media icons */}
-            <div className='flex flex-col md:flex-row justify-between'>
+            <div className='flex flex-col items-center md:flex-row justify-between space-y-0'>
                 <div className=' space-y-2'>
-                <h1 className='font-bold'>Available on</h1>
+                <h1 className='font-bold '>Available on</h1>
                 <ul className='flex space-x-5'>
                     <li>
+                    <a href='https://www.linkedin.com/in/miriam-rehema-69678a296/'target='_blank'>
                     <FaLinkedin className='text-2xl cursor pointer'/>
+                    </a>
                     </li>
                 </ul>
                 </div>
@@ -64,6 +67,13 @@ function Home() {
             </div>
             
         </div>
+        <br/>
+        <hr/>
+
+        </>
+        
+    
+        
     );
 }
 export default Home;
