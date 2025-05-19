@@ -6,7 +6,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaPython } from "react-icons/fa6";
 import { DiDjango } from "react-icons/di";
 import { ReactTyped, } from "react-typed";
-import pic from "/anime2.jpg"
+import pic from "/captivating.jpg"
 function Home() {
 
     return (
@@ -61,7 +61,7 @@ function Home() {
             </div>
             </div>
             <div className='md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1'>
-            <img src={pic}className= "rounded-full  md:w-[300px] md:h-[350px]"alt=''/>
+            <img src={pic}className= "rounded-full  md:w-[250px] md:h-[350px]"alt=''/>
             </div>
 
             </div>
