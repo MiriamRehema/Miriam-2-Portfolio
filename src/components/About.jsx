@@ -17,11 +17,45 @@ function About() {
             
      </p>
      <br/>
-     <h1 classname= 'text- font-bold mb-5'>
+     <h1 class= '  font-semibold text-xl'>
       Education
      </h1>
+     <span>
+      <ul className='list-disc'>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+        </ul>
+     </span>
+      <br/>
+      <h1 className='font-semibold text-xl'>
+        Skills 
+      </h1>
+      <span>
+        <ul className='list-disc'>
+          <li>skills/Internship</li>
+          <li>skills/Internship</li>
+          <li>skills/Internship</li>
+          <li>skills/Internship</li>
+        </ul>
+      </span>
+      <br/>
+      <h1 className='font-semibold text-xl'>
+       Achievements
+      </h1>
+      <span>
+        <ul className='list-disc'>
+          <li>Achievements</li>
+          <li>Achievements</li>
+          <li>Achievements</li>
+          <li>Achievements</li>
+        </ul>
+      </span>
+      <br/>
      
-    
+     
+      
                     
       
 
