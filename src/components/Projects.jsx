@@ -11,49 +11,42 @@ function Projects() {
             <div>
                 <h1 className='text-3xl font-bold mb-5'>Projects</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 my-5'>
                 <div className='project_card'>
-                <img src={pic}className= "w-[550px] h-[250px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                <img src={picture}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
                 
             </div>
+            
 
-             <p className='text-sm md:text-md '>
+             <p className='text-sm md:text-md text-justify'>
+                <h1>Oakville E learning platform</h1>
+                <br/>
+                
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                  industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                  essentially unchanged. 
+                  
+            </p>
+            
+
+            <div className='project_card'>
+                <img src={pic}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+            </div>
+             <p className='text-sm md:text-md text-justify'>
+                <h1>Food Ordering App</h1>
+                <br/>
+                Welcome to the official website of Tasty Dishes! We are delighted to have you here and share our passion for serving delicious and memorable meals.
             </p>
             
 
 
 
-
-
-
-
             <div className='project_card'>
-                <img src={picture}className= "w-[550px] h-[250px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                <img src={pict}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
             </div>
              <p className='text-sm md:text-md text-justify'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                  essentially unchanged. 
-            </p>
-
-
-
-            <div className='project_card'>
-                <img src={pict}className= "w-[550px] h-[250px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
-            </div>
-             <p className='text-sm md:text-md text-justify'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                  essentially unchanged. 
+                <h1>Trade App</h1>
+                <br/>
+                Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
             </p>
 
                 </div>
