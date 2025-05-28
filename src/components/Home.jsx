@@ -68,7 +68,7 @@ function Home() {
             
         </div>
         <br/>
-        <hr/>
+        
 
         </>
         

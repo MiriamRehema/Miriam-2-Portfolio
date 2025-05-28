@@ -9,7 +9,7 @@ function About() {
     return (
      <>
      <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
-      <h1 className='text-3xl font-bold mb-5'>About</h1>
+      <h1 className='text-2xl font-bold mb-5 text-center'>ABOUT ME</h1>
      <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -43,42 +43,7 @@ function About() {
        
       
      </div>
-     {/* <h1 class= '  font-semibold text-xl'>
-      Education
-     </h1>
-     <span>
-      <ul className='list-disc'>
-        <li>Degree/Certification</li>
-        <li>Degree/Certification</li>
-        <li>Degree/Certification</li>
-        <li>Degree/Certification</li>
-        </ul>
-     </span>
-      <br/>
-      <h1 className='font-semibold text-xl'>
-        Skills 
-      </h1>
-      <span>
-        <ul className='list-disc'>
-          <li>skills/Internship</li>
-          <li>skills/Internship</li>
-          <li>skills/Internship</li>
-          <li>skills/Internship</li>
-        </ul>
-      </span>
-      <br/>
-      <h1 className='font-semibold text-xl'>
-       Achievements
-      </h1>
-      <span>
-        <ul className='list-disc'>
-          <li>Achievements</li>
-          <li>Achievements</li>
-          <li>Achievements</li>
-          <li>Achievements</li>
-        </ul>
-      </span>
-      <br/> */}
+    
 
      </div>
      
@@ -89,7 +54,8 @@ function About() {
       
 
      
-
+    <br/>
+    
      
      
      </>
