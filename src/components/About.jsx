@@ -17,7 +17,33 @@ function About() {
             
      </p>
      <br/>
-     <h1 class= '  font-semibold text-xl'>
+     <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 my-5 '>
+      
+         <ul className='list-none'>
+      <h1 class= 'font-semibold text-xl'>Education</h1>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+        <li>Degree/Certification</li>
+      </ul>
+     
+      
+      <div className='md:w-1 md:ml-48 md:mt-10 mt-6 order-1'>
+      <ul className='list-non'>
+          <h1 className='font-semibold text-xl'>Achievements </h1>
+          <li>Achievemnts</li>
+          <li>Achievements</li>
+          <li>Achievements</li>
+          <li>Achievements</li>
+        </ul>
+
+      </div>
+         
+      
+       
+      
+     </div>
+     {/* <h1 class= '  font-semibold text-xl'>
       Education
      </h1>
      <span>
@@ -52,7 +78,7 @@ function About() {
           <li>Achievements</li>
         </ul>
       </span>
-      <br/>
+      <br/> */}
 
      </div>
      
