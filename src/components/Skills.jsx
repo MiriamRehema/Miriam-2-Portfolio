@@ -1,14 +1,15 @@
 import React from 'react';
-import { FaLinkedin } from "react-icons/fa";
-import { FaReact } from "react-icons/fa6";
-import { FaNodeJs } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaPython } from "react-icons/fa6";
-import { DiDjango } from "react-icons/di";
-import { ReactTyped, } from "react-typed";
-//import pic from "/captivating.jpg"
+import html from "../../public/html5.jpg";
+import css from "../../public/css3.jpg";
+import react from "../../public/react.jpg";
+import node from "../../public/nodejs.jpg";
+import python from "../../public/python.jpg";
+import django from "../../public/django.jpg";
+import tailwind from "../../public/tailwind.jpg";
+import javascript from "../../public/javascript.jpg";
 
-import { TbBrandJavascript } from "react-icons/tb";
+
+
 function Skills() {
 
     return (
@@ -17,13 +18,40 @@ function Skills() {
                 <h1 className='text-center'>My Skills</h1>
             </div>
             <div className='grid grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 my-5'>
-                            <TbBrandJavascript className='' /> 
-                            <FaNodeJs className='' />
-                            <IoLogoJavascript className='' />
-                            <FaPython  className=''/>
-                            <DiDjango className=''/>
-                            </div>
+                <div className='projecttechnology_cards'>
+                  <img src={html}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg  cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={css}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={javascript}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={node}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={react}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={python}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={django}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                <div className='projecttechnology_cards'>
+                  <img src={tailwind}className= "w-[150px] h-[150px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+                </div>
+                
+
+
+
+
+
+
+                            
             </div>
+        </div>
 
     )
 }
