@@ -11,7 +11,7 @@ function Projects() {
             <div>
                 <h1 className='text-3xl font-bold mb-5'>Projects</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 my-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 my-15'>
                 <div className='project_card'>
                 <img src={picture}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
                 
@@ -19,23 +19,25 @@ function Projects() {
             
 
              <p className='text-sm md:text-md text-justify'>
-                <h1>Oakville E learning platform</h1>
+                <h1 className='text-2xl font-bold mb-2'>Oakville E learning platform</h1>
                 <br/>
                 
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                  
+                Welcome to the Oakville learning platform that provides a seamless educational experience with a range of features designed to enhance your learning journey. 
+                As well as different courses and programs that you can choose from.
             </p>
             
 
+            
+             <p className='text-sm md:text-md text-justify'>
+                <h1 className='text-2xl font-bold mb-2'>Food Ordering App</h1>
+                <br/>
+                Welcome to the official website of Tasty Dishes! We are delighted to have you here and share our passion for serving delicious and memorable meals.
+                Our platform provides a seamless food ordering experience with a range of features designed to enhance your culinary journey.
+            </p>
             <div className='project_card'>
                 <img src={pic}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
             </div>
-             <p className='text-sm md:text-md text-justify'>
-                <h1>Food Ordering App</h1>
-                <br/>
-                Welcome to the official website of Tasty Dishes! We are delighted to have you here and share our passion for serving delicious and memorable meals.
-            </p>
+
             
 
 
@@ -44,12 +46,25 @@ function Projects() {
                 <img src={pict}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
             </div>
              <p className='text-sm md:text-md text-justify'>
-                <h1>Trade App</h1>
+                <h1 className='text-2xl font-bold mb-2'>Trade App</h1>
                 <br/>
                 Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
             </p>
 
-                </div>
+            
+             <p className='text-sm md:text-md text-justify '>
+                <h1 className='text-2xl font-bold mb-2'>Trade App</h1>
+                <br/>
+                Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
+            </p>
+            <div className='project_card'>
+                <img src={pict}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
+            </div>
+
+            
+
+            </div>
+            
             
             
         
