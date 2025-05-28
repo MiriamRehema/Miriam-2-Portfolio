@@ -6,18 +6,18 @@ import pict from '/Tradeproject.jpg';
 
 function Projects() {
     return (
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-20'>
+        <>
+        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             
             <div>
-                <h1 className='text-3xl font-bold mb-5'>Projects</h1>
+                <h1 className='text-2xl font-bold mb-5 text-center'>MY PROJECTS</h1>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 my-15'>
+
+                {/* 1st image */}
                 <div className='project_card'>
                 <img src={picture}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
-                
             </div>
-            
-
              <p className='text-sm md:text-md text-justify'>
                 <h1 className='text-2xl font-bold mb-2'>Oakville E learning platform</h1>
                 <br/>
@@ -26,8 +26,7 @@ function Projects() {
                 As well as different courses and programs that you can choose from.
             </p>
             
-
-            
+            {/* second image */}
              <p className='text-sm md:text-md text-justify'>
                 <h1 className='text-2xl font-bold mb-2'>Food Ordering App</h1>
                 <br/>
@@ -41,7 +40,7 @@ function Projects() {
             
 
 
-
+            {/* third image */}
             <div className='project_card'>
                 <img src={pict}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
             </div>
@@ -51,7 +50,7 @@ function Projects() {
                 Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
             </p>
 
-            
+            {/* 4rth image */}
              <p className='text-sm md:text-md text-justify '>
                 <h1 className='text-2xl font-bold mb-2'>Trade App</h1>
                 <br/>
@@ -61,14 +60,13 @@ function Projects() {
                 <img src={pict}className= "w-[500px] h-[250px] border-[1px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"alt=''/>
             </div>
 
-            
-
             </div>
             
             
-            
-        
         </div>
+        <br/>
+        </>
+        
     )
 }
 export default Projects;
