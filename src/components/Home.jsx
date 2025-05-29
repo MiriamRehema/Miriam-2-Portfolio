@@ -12,7 +12,7 @@ function Home() {
 
     return (
         <>
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 text-white bg-gray-800'>
             <div className='flex flex-col md:flex-row '>
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1' >
             <span className='text-xl'>Welcome to my Feed</span>
@@ -29,12 +29,9 @@ function Home() {
            {/* <span className='text-red-700 font-bold'>Developer</span> */}
            </div>
            <br/>
-            <p className='text-sm md:text-md text-justify'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                 industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                  essentially unchanged. 
+            <p className='text-lg md:text-md text-justify'>
+            I am a passionate software developer with a keen interest in building scalable web applications and services.I have experience in various programming languages and frameworks.
+            Whether it's through coding,problem-solving,or teamwork,to contribute positively to every project I am a part of. 
             </p>
             <br/>
             {/* social media icons */}

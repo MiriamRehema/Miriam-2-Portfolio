@@ -6,10 +6,10 @@ function Footer() {
     return(
         <>
         <hr/>
-        <footer className='py-12'>
+        <footer className='py-12 0'>
             <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 '>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='flex space-x-4'>
+                    <div className='flex space-x-4  p-4 bg-gray-800 text-white'>
                         <FaLinkedin size={24}/>
                         <CgMail size={28}/>
                         <BsGithub size={24}/>
