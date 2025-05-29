@@ -6,6 +6,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaPython } from "react-icons/fa6";
 import { DiDjango } from "react-icons/di";
 import { ReactTyped, } from "react-typed";
+import { BsGithub } from "react-icons/bs";
 import pic from "/captivating.jpg"
 function Home() {
 
@@ -37,25 +38,28 @@ function Home() {
             </p>
             <br/>
             {/* social media icons */}
-            <div className='flex flex-col items-center md:flex-row justify-between space-y-0'>
+            <div className='flex flex-col items-center md:flex-row justify-between space-y-2'>
                 <div className=' space-y-2'>
                 <h1 className='font-bold '>Available on</h1>
-                <ul className='flex space-x-5'>
-                    <li>
+                <div className='flex space-x-5'>
                     <a href='https://www.linkedin.com/in/miriam-rehema-69678a296/'target='_blank'>
                     <FaLinkedin className='text-2xl cursor pointer'/>
                     </a>
-                    </li>
-                </ul>
+                    <a href='https://github.com/MiriamRehema/'target='_blank'>
+                    <BsGithub className='text-2xl cursor pointer'/>
+                    </a>
+
+                </div>
+                
                 </div>
                 <div className='space-y-2'>
                 <h1 className='font-bold'>Currently working on</h1>
                 <div className='flex space-x-5'>
-                <FaReact className='text-xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
-                <FaNodeJs className='text-xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                <IoLogoJavascript className='text-xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
-                <FaPython  className='text-xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
-                <DiDjango className='text-xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
+                <FaReact className='text-2xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
+                <FaNodeJs className='text-2xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                <IoLogoJavascript className='text-2xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]' />
+                <FaPython  className='text-2xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
+                <DiDjango className='text-2xl md:text 3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
                 </div>
             </div>    
             </div>
