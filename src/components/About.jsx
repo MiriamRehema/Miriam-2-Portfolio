@@ -28,7 +28,7 @@ function About() {
       </ul>
      
       
-      <div className='md:w-1 md:ml-48 md:mt-10 mt-6 order-1'>
+      
       <ul className='list-non'>
           <h1 className='font-semibold text-xl'>Achievements </h1>
           <li>Achievemnts</li>
@@ -37,7 +37,7 @@ function About() {
           <li>Achievements</li>
         </ul>
 
-      </div>
+      
          
       
        
