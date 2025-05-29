@@ -11,8 +11,9 @@ function Footer() {
                 <div className='flex flex-col items-center justify-center'>
                     <div className='flex space-x-4'>
                         <FaLinkedin size={24}/>
+                        <CgMail size={28}/>
                         <BsGithub size={24}/>
-                        <CgMail size={27}/>
+                        
 
                     </div>
                     <div className='mt-8 border-t border-gray-700 pt-8 flex flex-col items-center'>
