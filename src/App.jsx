@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
    <>
+   <div className="bg-gray-800 text-white ">
    <Navbar/>
    <Home/>
    <About/>
@@ -16,6 +17,9 @@ function App() {
    <Projects/>
    <Contactme/>
    <Footer/>
+   
+
+   </div>
    
    </>
   );
