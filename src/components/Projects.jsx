@@ -7,12 +7,12 @@ import pict from '/Tradeproject.jpg';
 function Projects() {
     return (
         <>
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+        <div name='Projects'className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             
             <div>
                 <h1 className='text-2xl font-bold mb-5 text-center'>MY PROJECTS</h1>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 my-15'>
+            <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 my-10'>
 
                 {/* 1st image */}
                 <div className='project_card'>

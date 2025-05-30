@@ -28,7 +28,7 @@ function Contactme() {
 
     return(
         <>
-        <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
+        <div  name='Contact me'className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
             <h1 className='text-2xl font-bold mb-4'>CONTACT ME</h1>
             <span>Contact me via phone or email by filling this form.</span>
             <div className='flex flex-col items-center justify-center mt-5'>
