@@ -53,7 +53,16 @@
             <ul className="md:hidden flex flex-col h-screen items-center justify center space-y-3 text-xl">
                 {navItems.map(({id,text})=>(
                     <li className="hover:scale-y-105 duration-200 font-semibold cursor-pointer" key={id}
-                    >{text}</li>
+                    >
+                        <Link to={text}
+                        smoooth={'true'}
+                        duration={500}
+                        offset={-70}
+                        
+                        activeClass="active"
+
+                        >{text}</Link>
+                    </li>
                 ))}
             </ul>
 
