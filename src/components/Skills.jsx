@@ -1,12 +1,12 @@
 import React from 'react';
-import html from "../../public/html5.jpg";
-import css from "../../public/css3.jpg";
-import react from "../../public/react.jpg";
-import node from "../../public/nodejs.jpg";
-import python from "../../public/python.jpg";
-import django from "../../public/django.jpg";
-import tailwind from "../../public/tailwind.jpg";
-import javascript from "../../public/javascript.jpg";
+import html from "/html5.jpg";
+import css from "/css3.jpg";
+import react from "/react.jpg";
+import node from "/nodejs.jpg";
+import python from "/python.jpg";
+import django from "/django.jpg";
+import tailwind from "/tailwind.jpg";
+import javascript from "/javascript.jpg";
 
 
 
