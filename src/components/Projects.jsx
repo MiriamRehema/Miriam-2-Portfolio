@@ -10,7 +10,7 @@ function Projects() {
         <div name='Projects'className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
             
             <div>
-                <h1 className='text-2xl font-bold mb-5 text-center'>MY PROJECTS</h1>
+                <h1 className='text-3xl font-bold mb-5 text-center'>MY PROJECTS</h1>
             </div>
             <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 my-10'>
 
@@ -21,7 +21,7 @@ function Projects() {
 
                 <div>
                      <h1 className='text-2xl font-bold mb-2'>Oakville E learning platform</h1>
-                 <p className='text-sm md:text-md text-justify'>
+                 <p className='text-md md:text-md text- text-justify'>
                 Welcome to the Oakville learning platform that provides a seamless educational experience with a range of features designed to enhance your learning journey. 
                 As well as different courses and programs that you can choose from.
                  </p>
@@ -32,7 +32,7 @@ function Projects() {
             {/* second image */}
             <div>
                 <h1 className='text-2xl font-bold mb-2'>Food Ordering App</h1>
-             <p className='text-sm md:text-md text-justify'>
+             <p className='text-md md:text-md text-justify'>
                 Welcome to the official website of Tasty Dishes! We are delighted to have you here and share our passion for serving delicious and memorable meals.
                 Our platform provides a seamless food ordering experience with a range of features designed to enhance your culinary journey.
             </p>
@@ -52,7 +52,7 @@ function Projects() {
 
              <div>
                 <h1 className='text-2xl font-bold mb-2'>Trade App</h1>
-             <p className='text-sm md:text-md text-justify'>
+             <p className='text-md md:text-md text-justify'>
                 Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
             </p>
              </div>
@@ -60,7 +60,7 @@ function Projects() {
             {/* 4rth image */}
              <div >
                 <h1 className='text-2xl font-bold mb-2'>Trade App</h1>
-             <p className='text-sm md:text-md text-justify '>
+             <p className='text-md md:text-md text-justify '>
                 Welcome to Trade! This platform provides a seamless shopping experience with a range of features designed to enhance your shopping journey. Below, you'll find an overview of the key functionalities available.
             </p>
              </div>
