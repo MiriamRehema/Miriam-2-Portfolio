@@ -17,13 +17,14 @@ function Home() {
          className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 '>
             <div className='flex flex-col md:flex-row '>
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1' >
-            <span className='text-xl'>Welcome to my Feed</span>
-           <div className='flex space-x-1 text-2xl md:text-3xl '>
-           <h1>Hello,I'm a</h1>
+            <span className='text-xl'>Hello I'm</span>
+            <h1 className='text-5xl'>Miriam Rehema</h1>
+           <div className='flex space-x-1 text-3xl md:text-4xl '>
+           
            {/* <span style={{ color: 'red', fontWeight: 'bold' }}>Developer</span> */}
            <ReactTyped
            className='text-red-700 '
-          strings={["BackendDeveloper", "Programmer", "Software Engineer"]}
+          strings={["Backend Developer", "Programmer", "Software Engineer"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
@@ -31,9 +32,8 @@ function Home() {
            {/* <span className='text-red-700 font-bold'>Developer</span> */}
            </div>
            <br/>
-            <p className='text-lg md:text-md text-justify'>
-            I am a passionate software developer with a keen interest in building scalable web applications and services.I have experience in various programming languages and frameworks.
-            Whether it's through coding,problem-solving,or teamwork,to contribute positively to every project I am a part of. 
+            <p className='text-lg md:text-md text-justify justify-center'>
+            I am a passionate software developer with a keen interest in building scalable web applications and services.I have experience in various programming languages and frameworks.Whether it's through coding,problem-solving,or teamwork,to contribute positively to every project I am a part of. 
             </p>
             <br/>
             {/* social media icons */}
