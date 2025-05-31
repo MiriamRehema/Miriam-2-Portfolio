@@ -16,10 +16,10 @@
     <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-20 shadow-2xl fixed top-0 left-0 right-0 z-10 text-white bg-gray-800 ">
         <div className="flex justify-between items-center h-20">
             <div className="flex space-x-2">
-                <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo" className="h-8 w-auto"/>
-                <h1 className="font-semibold text-xl cursor-pointer">
-                    Miriam
-                <p className="text-sm">Web Developer</p>
+                {/* <img src="" alt="" className="h-8 w-auto"/> */}
+                <h1 className="font-semibold text-lg cursor-pointer">
+                    Miriam   Rehema
+                <p className="text-sm"></p>
                 </h1>
             </div>
             <div>
@@ -27,7 +27,7 @@
 
                 <ul className=" hidden  md:flex space-x-8">
                     {navItems.map(({id,text})=>(
-                        <li className= "hover:scale-y-105 duration-200 cursor-pointer" key={id}>
+                        <li className= "hover:scale-y-105 duration-200 font-light text-lg cursor-pointer" key={id}>
                         <Link to={text}
                         smoooth={'true'}
                         duration={500}
