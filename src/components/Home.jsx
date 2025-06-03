@@ -33,7 +33,11 @@ function Home() {
            </div>
            <br/>
             <p className='text-lg md:text-md text-justify justify-center'>
-            I am a passionate software developer with a keen interest in building scalable web applications and services.I have experience in various programming languages and frameworks.Whether it's through coding,problem-solving,or teamwork,to contribute positively to every project I am a part of. 
+            I am a passionate software developer with a keen interest in building scalable web applications and services.
+            <p>
+            I have experience in various programming languages and frameworks.
+            Whether it's through coding,problem-solving,teamwork,to contribute positively to every project I am a part of.
+                </p> 
             </p>
             <br/>
             {/* social media icons */}
